@@ -9,3 +9,9 @@ body {
   --terciary-color: #D6D6FF;
   --transparent-color: #141414;
 }
+
+* {
+  margin: 0;
+	padding: 0;
+	border: 0;
+}
