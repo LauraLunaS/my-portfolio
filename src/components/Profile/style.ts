@@ -6,20 +6,22 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: #fff;
+    background-color: var(--terciary-color);
 `;
 
 export const Box = styled.div`
+    align-items: flex-start;
     display: flex;
+    flex-direction: column;  
     justify-content: center;
-    align-items: center;
-    padding: 3rem;
+    padding: 1rem;
 
-    img {
-        width: 10rem;
-        height: 10rem;
-        margin-right: 2rem;
+    @media (min-width: 1024px) {
+        flex-direction: row;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
+    
 `;
 
 export const BoxText = styled.div`
@@ -27,7 +29,37 @@ export const BoxText = styled.div`
     flex-direction: column;  
     justify-content: center;
     align-items: flex-start;
-    width: 35rem;
+    width: 100%;
+
+    @media (min-width: 1024px) {
+        width: 35rem;
+        margin-left: 2rem;
+    }
+`;
+
+export const BoxIcon = styled.div`
+    display: flex;
+    flex-direction: row;  
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+`;
+
+export const BoxPerfil = styled.div`
+    
+    img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    @media (min-width: 1024px) {
+
+        img {
+            width: 10rem;
+            height: 10rem;
+        }
+    }
 `;
 
 export const Title = styled.text`

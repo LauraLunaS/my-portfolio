@@ -18,9 +18,9 @@ const Services = () => {
                 <Subtitle>Busco a especialização em web design, desenvolvimento Front-End e desenvolvimento fullstack utilizando Django</Subtitle>
             </ContainerTitle>
             <ContainerCard>
-                <CardService title={'Desenvolvimento'} src={'/layouts/dev.svg'}/>
-                <CardService title={'Desenvolvimento'} src={'/layouts/dev.svg'}/>
-                <CardService title={'Desenvolvimento'} src={'/layouts/dev.svg'}/>
+                <CardService title={'Desenvolvimento Web'} src={'/layouts/dev.svg'}/>
+                <CardService title={'Web Design'} src={'/layouts/dev.svg'}/>
+                <CardService title={'Landing Page'} src={'/layouts/dev.svg'}/>
             </ContainerCard>
         </Container>
     )

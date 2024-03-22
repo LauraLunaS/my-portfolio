@@ -1,9 +1,14 @@
 'use client';
 import { Box } from './style';
 
-const IconProfile = () => {
+interface IconProps {
+    IconSvg: string;
+}
+
+const IconProfile: React.FC<IconProps> = ( { IconSvg } ) => {
     return (
         <Box>
+            <img src={IconSvg}></img>
         </Box>
     )
 }

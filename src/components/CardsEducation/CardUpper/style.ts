@@ -20,6 +20,8 @@ export const Card = styled.div`
 export const ContainerTopic = styled.div`
     display: flex;
     flex-direction: row;
+
+    
     align-items: center;
     margin-top: 0.6rem;
     margin-bottom: 0.6rem;
